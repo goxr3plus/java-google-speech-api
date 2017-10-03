@@ -1,6 +1,8 @@
 # This library is completely remade for Java 8 ++ , so it is no compatible with Java 7 and below !!!
 
-##---Maven Build--
+---
+
+##Maven Build
 
 ### Maven Clean Package [ With Javadocs produced ]
 
@@ -9,6 +11,8 @@
 ### Maven Clean Package [ No Javadocs produced ]
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
+
+---
 
 #### Create your own Google_API_KEY from this website
 
