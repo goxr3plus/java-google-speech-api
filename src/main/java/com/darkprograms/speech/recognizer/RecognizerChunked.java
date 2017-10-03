@@ -115,8 +115,8 @@ public class RecognizerChunked {
 	
 	/**
 	 * Recognizes the byte data.
-	 * @param data
-	 * @param sampleRate
+	 * @param data Byte Data
+	 * @param sampleRate The sample rate
 	 */
 	public void getRecognizedDataForFlac(byte[] data, int sampleRate){
 		StringBuilder sb = new StringBuilder(GOOGLE_SPEECH_URL_V2);

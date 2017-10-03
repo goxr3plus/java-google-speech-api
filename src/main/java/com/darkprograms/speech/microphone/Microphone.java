@@ -116,9 +116,9 @@ public class Microphone implements Closeable {
 	 *
 	 * @param audioFile
 	 *            The File to save the audio to
-	 * @throws LineUnavailableException
+	 * 
 	 */
-	public void captureAudioToFile(File audioFile) throws LineUnavailableException {
+	public void captureAudioToFile(File audioFile) {
 		setState(CaptureState.STARTING_CAPTURE);
 		setAudioFile(audioFile);
 		
@@ -136,9 +136,8 @@ public class Microphone implements Closeable {
 	 *
 	 * @param audioFile
 	 *            The fully path (String) to a file you want to save the audio in
-	 * @throws LineUnavailableException
 	 */
-	public void captureAudioToFile(String audioFile) throws LineUnavailableException {
+	public void captureAudioToFile(String audioFile) {
 		File file = new File(audioFile);
 		captureAudioToFile(file);
 	}

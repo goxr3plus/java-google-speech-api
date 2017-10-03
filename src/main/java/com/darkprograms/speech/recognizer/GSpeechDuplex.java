@@ -92,6 +92,8 @@ public class GSpeechDuplex {
 	
 	/**
 	 * Temporary will be deprecated before release
+	 * 
+	 * @return The language code
 	 */
 	public String getLanguage() {
 		return language;
@@ -99,6 +101,9 @@ public class GSpeechDuplex {
 	
 	/**
 	 * Temporary will be deprecated before release
+	 * 
+	 * @param language
+	 *            The language code
 	 */
 	public void setLanguage(String language) {
 		this.language = language;
@@ -158,11 +163,15 @@ public class GSpeechDuplex {
 	 * </p>
 	 * 
 	 * @param tl
+	 *            TL
 	 * @param af
-	 * @throws IOException
+	 *            AF
 	 * @throws LineUnavailableException
+	 *             If the Line is unavailable
+	 * @throws InterruptedException
+	 *             InterruptedException
 	 */
-	public void recognize(TargetDataLine tl , AudioFormat af) throws IOException , LineUnavailableException , InterruptedException {
+	public void recognize(TargetDataLine tl , AudioFormat af) throws LineUnavailableException , InterruptedException {
 		//Generates a unique ID for the response. 
 		final long PAIR = MIN + (long) ( Math.random() * ( ( MAX - MIN ) + 1L ) );
 		
@@ -264,11 +273,11 @@ public class GSpeechDuplex {
 	 * @param tl
 	 *            The target data line to stream from.
 	 * @param af
-	 *            The AudioFormat to stream with.
+	 *            The AudioFormat to stream with.`
 	 * @throws LineUnavailableException
 	 *             If cannot open or stream the TargetDataLine.
 	 */
-	private Thread upChannel(String urlStr , TargetDataLine tl , AudioFormat af) throws IOException , LineUnavailableException {
+	private Thread upChannel(String urlStr , TargetDataLine tl , AudioFormat af) throws LineUnavailableException {
 		final String murl = urlStr;
 		final TargetDataLine mtl = tl;
 		final AudioFormat maf = af;
@@ -436,9 +445,12 @@ public class GSpeechDuplex {
 	
 	/**
 	 * @param sampleRate
+	 *            The samleRate
 	 * @param url
-	 * @return
+	 *            The URL
+	 * @return The HTTPSURLConnection
 	 * @throws IOException
+	 *             if something goes wrong in reading the file.
 	 */
 	private HttpsURLConnection getHttpsURLConnection(int sampleRate , URL url) throws IOException {
 		URLConnection urlConn = url.openConnection();

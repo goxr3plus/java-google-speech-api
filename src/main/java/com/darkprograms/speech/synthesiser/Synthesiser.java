@@ -48,6 +48,7 @@ public class Synthesiser extends BaseSynthsiser {
 
 	/**
 	 * Constructor that takes language code parameter. Specify to "auto" for language autoDetection 
+	 * @param languageCode The language code [ Example "es" for SPANISH ]
 	 */
 	public Synthesiser(String languageCode){
 		this.languageCode = languageCode;

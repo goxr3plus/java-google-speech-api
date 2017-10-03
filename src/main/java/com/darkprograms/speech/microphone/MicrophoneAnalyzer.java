@@ -138,7 +138,7 @@ public class MicrophoneAnalyzer extends Microphone {
 	 *            The number of bytes which must be a multiple of 2!!!
 	 * @return The calculated frequency in Hertz.
 	 */
-	public int getFrequency(int numOfBytes) throws Exception {
+	public int getFrequency(int numOfBytes) {
 		if (getTargetDataLine() == null) {
 			return -1;
 		}

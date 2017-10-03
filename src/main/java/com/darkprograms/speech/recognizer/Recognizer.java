@@ -27,8 +27,8 @@ public class Recognizer {
     
     /**
      * Constructor
-     * @param language
-     * @param apikey
+     * @param language The Language
+     * @param apikey   The api key
      */
     public Recognizer(String language, String apikey) {
         this.language = language; 
@@ -38,7 +38,7 @@ public class Recognizer {
     /**
      * Constructor
      * @param language The Languages class for the language you want to designate
-     * @param apikey
+     * @param apikey The api key
      */
      public Recognizer(Languages language, String apikey){
      	this.language = language.getLanguageCode();
@@ -47,8 +47,8 @@ public class Recognizer {
     
     /**
      * Constructor
-     * @param profanityFilter
-     * @param apikey
+     * @param profanityFilter The profanity Filter
+     * @param apikey The api key
      */
     public Recognizer(boolean profanityFilter, String apikey){
     	this.profanityFilter = profanityFilter;
@@ -57,9 +57,9 @@ public class Recognizer {
     
     /**
      * Constructor
-     * @param language
-     * @param profanityFilter
-     * @param apikey
+     * @param language The language
+     * @param profanityFilter The profanity Filter
+     * @param apikey The api key
      */
     public Recognizer(String language, boolean profanityFilter, String apikey){
     	this.language = language;
@@ -69,9 +69,9 @@ public class Recognizer {
     
    /**
      * Constructor
-     * @param language
-     * @param profanityFilter
-     * @param apikey
+     * @param language The language
+    * @param profanityFilter The profanity Filter
+     * @param apikey The api key
      */
      public Recognizer(Languages language, boolean profanityFilter, String apikey){
      	this.language = language.getLanguageCode();
@@ -83,7 +83,7 @@ public class Recognizer {
      * Language: Contains all supported languages for Google Speech to Text. 
      * Setting this to null will make Google use it's own language detection.
      * This value is null by default.
-     * @param language
+     * @param language The languages
      */
     public void setLanguage(Languages language) {
         this.language = language.getLanguageCode();
