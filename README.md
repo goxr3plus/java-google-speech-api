@@ -1,10 +1,12 @@
 # This library is completely remade for Java 8 ++ , so it is no compatible with Java 7 and below !!!
 
-## Maven Clean Package [ With Javadocs produced ]
+##---Maven Build--
 
-```mvn -Dmaven.javadoc.skip=true clean package``` 
+### Maven Clean Package [ With Javadocs produced ]
 
-## Maven Clean Package [ No Javadocs produced ]
+```mvn clean package``` 
+
+### Maven Clean Package [ No Javadocs produced ]
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
 
