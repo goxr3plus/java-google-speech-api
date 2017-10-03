@@ -12,6 +12,63 @@
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
 
+### Get Library  using JitPack [ Check the Below Maven Example ]
+
+Depencities can be seen on the below pom.xml ( **java-flac-encoder.jar** , **json-20150729.jar** )
+
+https://jitpack.io/private#goxr3plus/java-google-speech-api
+
+### Add all the depencities to your project like below [ Example Project named `ExampleProject`]
+
+```
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ExampleProject</groupId>
+	<artifactId>ExampleProject</artifactId>
+	<version>1.0.0</version>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sourceforge.javaflacencoder</groupId>
+			<artifactId>java-flac-encoder</artifactId>
+			<version>0.3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20150729</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.goxr3plus</groupId>
+			<artifactId>java-google-speech-api</artifactId>
+			<version>V2.0</version>
+		</dependency>
+	</dependencies>
+
+	<name>ExampleProject</name>
+</project>
+```
 ---
 
 #### Create your own Google_API_KEY from this website
