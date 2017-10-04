@@ -510,7 +510,7 @@ public class GSpeechDuplex {
 		gr.setFinalResponse(rawResponse.contains("\"final\":true"));
 		String[] currentHypos = rawResponse.split("\\[\\{\"transcript\":\"");
 		for (int i = 2; i < currentHypos.length; i++) {
-			String cleaned = currentHypos[i].substring(0, currentHypos[i].indexOf("\""));
+			String cleaned = currentHypos[i].substring(0, currentHypos[i].indexOf('\"'));
 			gr.getOtherPossibleResponses().add(cleaned);
 		}
 	}

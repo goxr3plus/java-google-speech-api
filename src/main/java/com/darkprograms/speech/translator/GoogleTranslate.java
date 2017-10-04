@@ -178,8 +178,7 @@ public final class GoogleTranslate { //Class marked as final since all methods a
 				break;
 			buf.append((char) ch);
 		}
-		String str = buf.toString();
-		return str;
+		return buf.toString();
 	}
 	
 	/**

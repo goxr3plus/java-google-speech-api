@@ -174,7 +174,6 @@ public class Microphone implements Closeable {
 				getTargetDataLine().open(getAudioFormat());
 				getTargetDataLine().start();
 			} catch (LineUnavailableException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return;
 			}
@@ -205,10 +204,10 @@ public class Microphone implements Closeable {
 		 */
 		public void run() {
 			try {
-				AudioFileFormat.Type fileType = getFileType();
-				File audioFile = getAudioFile();
+				AudioFileFormat.Type fileTypeX = getFileType();
+				File audioFileX = getAudioFile();
 				open();
-				AudioSystem.write(new AudioInputStream(getTargetDataLine()), fileType, audioFile);
+				AudioSystem.write(new AudioInputStream(getTargetDataLine()), fileTypeX, audioFileX);
 				//Will write to File until it's closed.
 			} catch (Exception ex) {
 				ex.printStackTrace();
