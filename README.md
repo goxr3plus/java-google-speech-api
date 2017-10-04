@@ -1,8 +1,10 @@
-# This library is completely remade for Java 8 ++ , so it is no compatible with Java 7 and below !!!
+# This library will soon be upgrated to support only Java 8 and above , so Java 7 and below will not be compatible any more
+# For the moment First Release [2.0] Supports Java 7 and below :)
 ---
 
-For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
-This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
+###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
+
+###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 
 ### J.A.R.V.I.S. For Java 8 (Java-GOOGLE-Speech-API)
 
