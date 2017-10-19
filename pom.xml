@@ -70,9 +70,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>net.sourceforge.javaflacencoder</groupId>
+			<groupId>com.github.axet</groupId>
 			<artifactId>java-flac-encoder</artifactId>
-			<version>0.3.7</version>
+			<version>0.3.8</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.cliftonlabs/json-simple -->
 		<dependency>
