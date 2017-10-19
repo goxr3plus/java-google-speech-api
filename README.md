@@ -77,19 +77,9 @@ https://jitpack.io/private#goxr3plus/java-google-speech-api
 
 	<dependencies>
 		<dependency>
-			<groupId>net.sourceforge.javaflacencoder</groupId>
-			<artifactId>java-flac-encoder</artifactId>
-			<version>0.3.7</version>
-		</dependency>
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20150729</version>
-		</dependency>
-		<dependency>
 			<groupId>com.github.goxr3plus</groupId>
 			<artifactId>java-google-speech-api</artifactId>
-			<version>V2.0</version>
+			<version>V2.1</version>
 		</dependency>
 	</dependencies>
 
