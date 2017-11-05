@@ -41,7 +41,7 @@ The API currently provides the following functionality,
 
 ### Add it to your project using JitPack :
 
-https://jitpack.io/private#goxr3plus/java-stream-player
+https://jitpack.io/private#goxr3plus/java-google-speech-api
 
 ### Step 1. Add the JitPack repository to your build file
 ``` XML
