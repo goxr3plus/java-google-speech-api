@@ -39,53 +39,29 @@ The API currently provides the following functionality,
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
 
-### Get Library  using JitPack [ Check the Below Maven Example ]
+### Add it to your project using JitPack :
 
-Depencities can be seen on the below pom.xml ( **java-flac-encoder.jar** , **json-20150729.jar** )
+https://jitpack.io/private#goxr3plus/java-stream-player
 
-https://jitpack.io/private#goxr3plus/java-google-speech-api
-
-### Add all the depencities to your project like below [ Example Project named `ExampleProject`]
-
+### Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
 ```
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>ExampleProject</groupId>
-	<artifactId>ExampleProject</artifactId>
-	<version>1.0.0</version>
-	<build>
-		<sourceDirectory>src</sourceDirectory>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
 
-
-	<dependencies>
-		<dependency>
-			<groupId>com.github.goxr3plus</groupId>
-			<artifactId>java-google-speech-api</artifactId>
-			<version>V2.1</version>
-		</dependency>
-	</dependencies>
-
-	<name>ExampleProject</name>
-</project>
+###  Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-google-speech-api</artifactId>
+   <version>V2.1</version> 
+</dependency>
 ```
+
 ---
 
 #### Create your own Google_API_KEY from this website
