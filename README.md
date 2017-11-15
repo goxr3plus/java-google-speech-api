@@ -2,71 +2,21 @@
 # For the moment First Release [2.0] Supports Java 7 and below :)
 ---
 
-###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
-
-###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
-
 ### J.A.R.V.I.S. For Java 8 (Java-GOOGLE-Speech-API)
 
 J.A.R.V.I.S. Java Speech API: Just A Reliable Vocal Interpreter & Synthesizer. 
 This is a project for the Java Speech API. The program interprets vocal inputs into text and synthesizes voices from text input.
 The program supports dozens of languages and even has the ability to auto-detect languages! 
 
-### Description
-The J.A.R.V.I.S. Speech API is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
-
-### Features
-The API currently provides the following functionality,
-
-  * Microphone Capture API (Wrapped around the current Java API for simplicity)
-  * A speech recognizer using Google's recognizer service
-      * Converts WAVE files from microphone input to FLAC (using existing API, see CREDITS)
-      * Retrieves Response from Google, including confidence score and text
-  * A speech synthesiser using Google's synthesizer service
-      * Retrieves synthesized text in an InputStream (MP3 data ready to be played)
-  * Wave to FLAC API (Wrapped around the used API in the project, javaFlacEncoder, see CREDITS)
-  * A translator using Google Translate (courtesy of Skylion's Google Toolkit)
-
 ---
 
-## --Maven Build--
+###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
 
-### Maven Clean Package [ With Javadocs produced ]
+###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 
-```mvn clean package``` 
+#### Create your own Google_API_KEY , watch the tutorial below 
 
-### Maven Clean Package [ No Javadocs produced ]
 
-```mvn -Dmaven.javadoc.skip=true clean package``` 
-
-### Add it to your project using JitPack :
-
-https://jitpack.io/private#goxr3plus/java-google-speech-api
-
-### Step 1. Add the JitPack repository to your build file
-``` XML
-<repositories>
-	<repository>
-	   <id>jitpack.io</id>
-	   <url>https://jitpack.io</url>
-        </repository>
-</repositories>
-```
-
-###  Step 2. Add the dependency
-``` XML
-<dependency>
-   <groupId>com.github.goxr3plus</groupId>
-   <artifactId>java-google-speech-api</artifactId>
-   <version>V2.1</version> 
-</dependency>
-```
-
----
-
-#### Create your own Google_API_KEY from this website
-
-https://cloud.google.com/speech/   [Requires Credit Card but is free for first 12 months , you can cancel it anytime ]
 
 #### Java Swing Example Using the Library for Speech Recognition
 
@@ -194,5 +144,53 @@ public class TryGoogleSpeechRecognitionSimple implements GSpeechResponseListener
 
 
 ```
+
+### Description
+The J.A.R.V.I.S. Speech API is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
+
+### Features
+- **The API currently provides the following functionality,**
+  - Microphone Capture API (Wrapped around the current Java API for simplicity)
+  - **A speech recognizer using Google's recognizer service**
+      - Converts WAVE files from microphone input to FLAC (using existing API, see CREDITS)
+      - Retrieves Response from Google, including confidence score and text
+  - **A speech synthesiser using Google's synthesizer service**
+      - Retrieves synthesized text in an InputStream (MP3 data ready to be played)
+  - Wave to FLAC API (Wrapped around the used API in the project, javaFlacEncoder, see CREDITS)
+  - A translator using Google Translate (courtesy of Skylion's Google Toolkit)
+
+## --Maven Build--
+
+### Maven Clean Package [ With Javadocs produced ]
+
+```mvn clean package``` 
+
+### Maven Clean Package [ No Javadocs produced ]
+
+```mvn -Dmaven.javadoc.skip=true clean package``` 
+
+### Add it to your project using JitPack :
+
+https://jitpack.io/private#goxr3plus/java-google-speech-api
+
+### Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+```
+
+###  Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-google-speech-api</artifactId>
+   <version>V2.1</version> 
+</dependency>
+```
+
 
 ----
