@@ -1,5 +1,10 @@
-# This library will soon be upgrated to support only Java 8 and above , so Java 7 and below will not be compatible any more
-# For the moment First Release [2.0] Supports Java 7 and below :)
+#### This library will soon be upgrated to support only Java 8 and above , so Java 7 and below will not be compatible any more
+
+##### Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below :) 
+
+###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
+
+###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 ---
 
 ### J.A.R.V.I.S. For Java 8 (Java-GOOGLE-Speech-API)
@@ -10,12 +15,13 @@ The program supports dozens of languages and even has the ability to auto-detect
 
 ---
 
-###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
 
-###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 
 #### Create your own Google_API_KEY , watch the tutorial below 
 
+| Create Google Cloud Account | Generate Speech Recognition API Keys |
+|:-:|:-:|
+| [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/8MbomlmxKXU/0.jpg)](https://www.youtube.com/watch?v=8MbomlmxKXU) |
 
 
 #### Java Swing Example Using the Library for Speech Recognition
