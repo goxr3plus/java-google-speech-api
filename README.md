@@ -19,6 +19,8 @@ The program supports dozens of languages and even has the ability to auto-detect
 
 #### Create your own Google_API_KEY , watch the tutorial below 
 
+*My bad , the keys you are producing using this video will not work yet with https://github.com/goxr3plus/java-google-speech-api library !! Because it is using a private Chromium API . I will add this functionality in future releases of this library.*
+
 | Create Google Cloud Account | Generate Speech Recognition API Keys |
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/8MbomlmxKXU/0.jpg)](https://www.youtube.com/watch?v=8MbomlmxKXU) |
