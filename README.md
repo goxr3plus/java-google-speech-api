@@ -17,12 +17,17 @@ The program supports dozens of languages and even has the ability to auto-detect
 
 
 
-#### Create your own Google_SPEECH_PRIVATE_API_KEY , watch the tutorial below 
+#### Create your own Google_SPEECH_PRIVATE_API_KEYS , watch below tutorials .
 
 | Create Google Cloud Account | Generate Speech Recognition Private API Keys |
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/ZUHqMn6NacY/0.jpg)](https://www.youtube.com/watch?v=ZUHqMn6NacY) |
 
+
+#### This library supports only Google Cloud Speech API Private
+For the moment that is .
+
+The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
 
 #### Java Swing Example Using the Library for Speech Recognition
 
