@@ -17,15 +17,11 @@ The program supports dozens of languages and even has the ability to auto-detect
 
 
 
-#### Create your own Google_API_KEY , watch the tutorial below 
+#### Create your own Google_SPEECH_PRIVATE_API_KEY , watch the tutorial below 
 
-*My bad , the keys you are producing using this video will not work yet with https://github.com/goxr3plus/java-google-speech-api library !! Because it is using a private Chromium API . I will add this functionality in future releases of this library.*
-
-**This is due to The project is using a private Speech API (https://console.cloud.google.com/apis/library/speech-json.googleapis.com/?filter=visibility:private&project=speech-153718&hl=de)**
-
-| Create Google Cloud Account | Generate Speech Recognition API Keys |
+| Create Google Cloud Account | Generate Speech Recognition Private API Keys |
 |:-:|:-:|
-| [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/8MbomlmxKXU/0.jpg)](https://www.youtube.com/watch?v=8MbomlmxKXU) |
+| [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/ZUHqMn6NacY/0.jpg)](https://www.youtube.com/watch?v=ZUHqMn6NacY) |
 
 
 #### Java Swing Example Using the Library for Speech Recognition
