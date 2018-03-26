@@ -1,8 +1,12 @@
 # Java Google Speech API
 
+### Description
+This project is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
+
+### Features
 This project is separated on 3 parts :
 
-1) Google Speech Recognition based on Chromium Speech API (which is free with restrictions for commercial applications) through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+**1)** Google Speech Recognition based on Chromium Speech API (which is free with restrictions for commercial applications) through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
    >It doesn't currently support the new official [Google Cloud Speech API](https://cloud.google.com/speech/)(which is also free but for a certain amount of words)
    
    >The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
@@ -12,11 +16,18 @@ This project is separated on 3 parts :
 | [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/ZUHqMn6NacY/0.jpg)](https://www.youtube.com/watch?v=ZUHqMn6NacY) |
 
 
-2) Google translate full support through [GoogleTranslate.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/translator/GoogleTranslate.java)
+**2)** Google translate full support through [GoogleTranslate.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/translator/GoogleTranslate.java)
 
+| Tutorial 1 | Tutorial 2 |
+|:-:|:-:|
+| [![First](http://img.youtube.com/vi/H9G02EkohtU/0.jpg)](https://www.youtube.com/watch?v=H9G02EkohtU)  | [![Second](http://img.youtube.com/vi/-AMoR_WPV_M/0.jpg)](https://www.youtube.com/watch?v=-AMoR_WPV_M) |
 
-3) Text to Speech , Audio Synthesizer through [SynthesiserV2.java](ava-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java
-)
+**3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](ava-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
+
+| Tutorial 1 | Tutorial 2 |
+|:-:|:-:|
+| [![First](http://img.youtube.com/vi/42-ZqfPYmVw/0.jpg)](https://www.youtube.com/watch?v=42-ZqfPYmVw)  | [![Second](http://img.youtube.com/vi/ckjURDx1JGw/0.jpg)](https://www.youtube.com/watch?v=ckjURDx1JGw) |
+
 
 >The program supports dozens of languages and even has the ability to auto-detect languages! 
 
@@ -34,7 +45,7 @@ You are free to contribute if you want to maintain Java 7 background compatibili
 
 
 
-#### Java Swing Example Using the Library for Speech Recognition using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+# Java Swing Example Using the Library for Speech Recognition using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
 ```Java
 
@@ -160,9 +171,6 @@ public class TryGoogleSpeechRecognitionSimple implements GSpeechResponseListener
 
 
 ```
-
-### Description
-The J.A.R.V.I.S. Speech API is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
 
 ### Features
 - **The API currently provides the following functionality,**
