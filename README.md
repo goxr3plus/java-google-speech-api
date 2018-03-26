@@ -2,8 +2,8 @@
 
 This project is separated on 3 parts :
 
-1) Google Speech Recognition based on Chromium Speech API key through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
-   >It doesn't currently support official the new Speech API on Google Cloud (which is also free).
+1) Google Speech Recognition based on Chromium Speech API (which is free with restrictions for commercial applications) through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+   >It doesn't currently support the new official [Google Cloud Speech API](https://cloud.google.com/speech/)(which is also free but for a certain amount of words)
    
    >The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
 
