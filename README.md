@@ -55,6 +55,40 @@ You are free to contribute if you want to maintain Java 7 background compatibili
 ###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 
 
+# Add it to your project using JitPack :
+
+https://jitpack.io/private#goxr3plus/java-google-speech-api
+
+>Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+```
+
+>Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-google-speech-api</artifactId>
+   <version>V2.1</version> 
+</dependency>
+```
+
+# Maven Build
+
+> Maven Clean Package [ With Javadocs produced ]
+
+```mvn clean package``` 
+
+> Maven Clean Package [ No Javadocs produced ]
+
+```mvn -Dmaven.javadoc.skip=true clean package``` 
+
+
 
 # Java Swing speech recognition example using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
@@ -180,40 +214,6 @@ public class TryGoogleSpeechRecognitionSimple implements GSpeechResponseListener
 	}
 }
 
-
-```
-## Maven Build
-
-> Maven Clean Package [ With Javadocs produced ]
-
-```mvn clean package``` 
-
-> Maven Clean Package [ No Javadocs produced ]
-
-```mvn -Dmaven.javadoc.skip=true clean package``` 
-
-# Add it to your project using JitPack :
-
-https://jitpack.io/private#goxr3plus/java-google-speech-api
-
->Step 1. Add the JitPack repository to your build file
-``` XML
-<repositories>
-	<repository>
-	   <id>jitpack.io</id>
-	   <url>https://jitpack.io</url>
-        </repository>
-</repositories>
-```
-
->Step 2. Add the dependency
-``` XML
-<dependency>
-   <groupId>com.github.goxr3plus</groupId>
-   <artifactId>java-google-speech-api</artifactId>
-   <version>V2.1</version> 
-</dependency>
 ```
 
 
-----
