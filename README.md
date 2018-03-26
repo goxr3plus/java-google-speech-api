@@ -90,7 +90,7 @@ https://jitpack.io/private#goxr3plus/java-google-speech-api
 
 
 
-# Java Swing speech recognition example using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+## Java Swing speech recognition example using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
 ```Java
 
