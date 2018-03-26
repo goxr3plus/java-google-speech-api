@@ -1,35 +1,40 @@
-#### This library will soon be upgrated to support only Java 8 and above , so Java 7 and below will not be compatible any more
+# Java Google Speech API
 
-##### Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below :) 
+This project is separated on 3 parts :
 
-###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
-
-###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
----
-
-### J.A.R.V.I.S. For Java 8 (Java-GOOGLE-Speech-API)
-
-J.A.R.V.I.S. Java Speech API: Just A Reliable Vocal Interpreter & Synthesizer. 
-This is a project for the Java Speech API. The program interprets vocal inputs into text and synthesizes voices from text input.
-The program supports dozens of languages and even has the ability to auto-detect languages! 
-
----
-
-
-
-#### Create your own Google_SPEECH_PRIVATE_API_KEYS , watch below tutorials .
+1) Google Speech Recognition based on Chromium Speech API key through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+   >It doesn't currently support official the new Speech API on Google Cloud (which is also free).
+   
+   >The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
 
 | Create Google Cloud Account | Generate Speech Recognition Private API Keys |
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/ZUHqMn6NacY/0.jpg)](https://www.youtube.com/watch?v=ZUHqMn6NacY) |
 
 
-#### This library supports only Google Cloud Speech API Private
-For the moment that is .
+2) Google translate full support through [GoogleTranslate.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/translator/GoogleTranslate.java)
 
-The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
 
-#### Java Swing Example Using the Library for Speech Recognition
+3) Text to Speech , Audio Synthesizer through [SynthesiserV2.java](ava-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java
+)
+
+>The program supports dozens of languages and even has the ability to auto-detect languages! 
+
+# Java Versions Support
+
+>Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below
+
+>Future releases will support only Java 8,9,10 and above.
+
+You are free to contribute if you want to maintain Java 7 background compatibility for your project
+
+###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
+
+###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
+
+
+
+#### Java Swing Example Using the Library for Speech Recognition using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
 ```Java
 
