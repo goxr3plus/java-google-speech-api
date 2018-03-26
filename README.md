@@ -3,10 +3,17 @@
 ### Description
 This project is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
 
+
 ### Features
 This project is separated on 3 parts :
 
 **1)** Google Speech Recognition based on Chromium Speech API (which is free with restrictions for commercial applications) through [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+
+     - Microphone Capture API is used (Wrapped around the current Java API for simplicity)
+     - Converts WAVE files from microphone input to FLAC (using existing API, see CREDITS)
+     - Retrieves Response from Google, including confidence score and text
+     
+   ##### Keep in mind that:
    >It doesn't currently support the new official [Google Cloud Speech API](https://cloud.google.com/speech/)(which is also free but for a certain amount of words)
    
    >The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
@@ -18,11 +25,15 @@ This project is separated on 3 parts :
 
 **2)** Google translate full support through [GoogleTranslate.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/translator/GoogleTranslate.java)
 
+    - A translator using Google Translate (courtesy of Skylion's Google Toolkit)
+
 | Tutorial 1 | Tutorial 2 |
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/H9G02EkohtU/0.jpg)](https://www.youtube.com/watch?v=H9G02EkohtU)  | [![Second](http://img.youtube.com/vi/-AMoR_WPV_M/0.jpg)](https://www.youtube.com/watch?v=-AMoR_WPV_M) |
 
 **3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](ava-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
+
+    - Retrieves synthesized text in an InputStream (MP3 data ready to be played)
 
 | Tutorial 1 | Tutorial 2 |
 |:-:|:-:|
@@ -31,7 +42,7 @@ This project is separated on 3 parts :
 
 >The program supports dozens of languages and even has the ability to auto-detect languages! 
 
-# Java Versions Support
+# Java Versions Supported
 
 >Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below
 
@@ -45,7 +56,7 @@ You are free to contribute if you want to maintain Java 7 background compatibili
 
 
 
-# Java Swing Example Using the Library for Speech Recognition using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+# Java Swing speech recognition example using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
 ```Java
 
@@ -171,33 +182,21 @@ public class TryGoogleSpeechRecognitionSimple implements GSpeechResponseListener
 
 
 ```
+## Maven Build
 
-### Features
-- **The API currently provides the following functionality,**
-  - Microphone Capture API (Wrapped around the current Java API for simplicity)
-  - **A speech recognizer using Google's recognizer service**
-      - Converts WAVE files from microphone input to FLAC (using existing API, see CREDITS)
-      - Retrieves Response from Google, including confidence score and text
-  - **A speech synthesiser using Google's synthesizer service**
-      - Retrieves synthesized text in an InputStream (MP3 data ready to be played)
-  - Wave to FLAC API (Wrapped around the used API in the project, javaFlacEncoder, see CREDITS)
-  - A translator using Google Translate (courtesy of Skylion's Google Toolkit)
-
-## --Maven Build--
-
-### Maven Clean Package [ With Javadocs produced ]
+> Maven Clean Package [ With Javadocs produced ]
 
 ```mvn clean package``` 
 
-### Maven Clean Package [ No Javadocs produced ]
+> Maven Clean Package [ No Javadocs produced ]
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
 
-### Add it to your project using JitPack :
+# Add it to your project using JitPack :
 
 https://jitpack.io/private#goxr3plus/java-google-speech-api
 
-### Step 1. Add the JitPack repository to your build file
+>Step 1. Add the JitPack repository to your build file
 ``` XML
 <repositories>
 	<repository>
@@ -207,7 +206,7 @@ https://jitpack.io/private#goxr3plus/java-google-speech-api
 </repositories>
 ```
 
-###  Step 2. Add the dependency
+>Step 2. Add the dependency
 ``` XML
 <dependency>
    <groupId>com.github.goxr3plus</groupId>
