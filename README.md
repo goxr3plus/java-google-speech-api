@@ -1,5 +1,15 @@
 # Java Google Speech API
 
+[![Latest Version](https://img.shields.io/github/release/goxr3plus/java-google-speech-api.svg?style=flat-square)](https://github.com/goxr3plus/java-google-speech-api/releases)
+[![GitHub contributors][contributors-image]][contributors-url]
+[![HitCount](http://hits.dwyl.io/goxr3plus/java-google-speech-api.svg)](http://hits.dwyl.io/goxr3plus/java-google-speech-api)
+[![Total Downloads](https://img.shields.io/github/downloads/goxr3plus/java-google-speech-api/total.svg)](https://github.com/goxr3plus/java-google-speech-api/releases)
+
+
+[contributors-url]: https://github.com/goxr3plus/java-google-speech-api/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/goxr3plus/java-google-speech-api.svg
+
+
 ### Description
 This project is designed to be simple and efficient, using the speech engines created by Google to provide functionality for parts of the API. Essentially, it is an API written in Java, including a recognizer, synthesizer, and a microphone capture utility. The project uses Google services for the synthesizer and recognizer.  While this requires an Internet connection, it provides a complete, modern, and fully functional speech API in Java.
 
