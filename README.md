@@ -43,7 +43,7 @@ This project is separated on 3 parts :
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/H9G02EkohtU/0.jpg)](https://www.youtube.com/watch?v=H9G02EkohtU)  | [![Second](http://img.youtube.com/vi/-AMoR_WPV_M/0.jpg)](https://www.youtube.com/watch?v=-AMoR_WPV_M) |
 
-**3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](java-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
+**3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
 
     - Retrieves synthesized text in an InputStream (MP3 data ready to be played)
 
@@ -102,7 +102,7 @@ https://jitpack.io/private#goxr3plus/java-google-speech-api
 
 
 
-## Java Swing speech recognition example using [GSpeechDuplex.java]( java-google-speech-api/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
+## Java Swing speech recognition example using [GSpeechDuplex.java](https://github.com/goxr3plus/java-google-speech-api/blob/master/src/main/java/com/darkprograms/speech/recognizer/GSpeechDuplex.java)
 
 ```Java
 
