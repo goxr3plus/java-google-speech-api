@@ -1,3 +1,5 @@
+# USE MAVEN OR GRADLE TO BUILD THE PROJECT , DOWNLOADING THE .jar only it doesn't work because you need all the dependencies
+
 # Java Google Speech API
 
 [![Latest Version](https://img.shields.io/github/release/goxr3plus/java-google-speech-api.svg?style=flat-square)](https://github.com/goxr3plus/java-google-speech-api/releases)
@@ -41,7 +43,7 @@ This project is separated on 3 parts :
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/H9G02EkohtU/0.jpg)](https://www.youtube.com/watch?v=H9G02EkohtU)  | [![Second](http://img.youtube.com/vi/-AMoR_WPV_M/0.jpg)](https://www.youtube.com/watch?v=-AMoR_WPV_M) |
 
-**3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](ava-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
+**3)** Text to Speech , Audio Synthesizer through [SynthesiserV2.java](java-google-speech-api/src/main/java/com/darkprograms/speech/synthesiser/SynthesiserV2.java)
 
     - Retrieves synthesized text in an InputStream (MP3 data ready to be played)
 
