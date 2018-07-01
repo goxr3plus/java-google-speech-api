@@ -1,6 +1,4 @@
-# USE MAVEN OR GRADLE TO BUILD THE PROJECT , DOWNLOADING THE .jar only it doesn't work because you need all the dependencies
-
-Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
+## Google has released it's official library for [Google Speech Recognition](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-clients/google-cloud-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
 
 # Java Google Speech API
 
