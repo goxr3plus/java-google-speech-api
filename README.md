@@ -1,5 +1,7 @@
 # USE MAVEN OR GRADLE TO BUILD THE PROJECT , DOWNLOADING THE .jar only it doesn't work because you need all the dependencies
 
+Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
+
 # Java Google Speech API
 
 [![Latest Version](https://img.shields.io/github/release/goxr3plus/java-google-speech-api.svg?style=flat-square)](https://github.com/goxr3plus/java-google-speech-api/releases)
