@@ -28,7 +28,11 @@ This project is separated on 3 parts :
      - Retrieves Response from Google, including confidence score and text
      
    ##### Keep in mind that:
-   >It doesn't currently support the new official [Google Cloud Speech API](https://cloud.google.com/speech/)(which is also free but for a certain amount of words)
+   >It doesn't currently support the new official [Google Cloud Speech API](https://cloud.google.com/speech/)(which is also free but for a certain amount of words) 
+   
+   ### Update 2/7/2018
+   **Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)**
+
    
    >The new Google Cloud Speech API is not supported yet but you can see [here](https://cloud.google.com/speech/docs/reference/libraries#client-libraries-usage-java) the official Alpha Library from supported by Google
 
