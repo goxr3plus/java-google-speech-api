@@ -1,5 +1,7 @@
 ## Google has released it's official library for [Google Speech Recognition](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-clients/google-cloud-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
 
+##### Warning : The default secret key i was using is not working anymore (because ... i have to pay lol ) , you have to make your own , check tutorials :)
+
 # Java Google Speech API
 
 [![Latest Version](https://img.shields.io/github/release/goxr3plus/java-google-speech-api.svg?style=flat-square)](https://github.com/goxr3plus/java-google-speech-api/releases)
