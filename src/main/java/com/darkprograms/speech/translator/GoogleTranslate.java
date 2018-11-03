@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import org.json.JSONArray;
+
 /***************************************************************************************************************
  * An API for a Google Translation service in Java. Please Note: This API is unofficial and is not supported by Google. Subject to breakage at any
  * time. The translator allows for language detection and translation. Recommended for translation of user interfaces or speech commands. All
