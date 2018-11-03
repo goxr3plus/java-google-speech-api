@@ -1,6 +1,32 @@
 ## Google has released it's official library for [Google Speech Recognition](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-clients/google-cloud-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
 
+By the way .... how they have implemented it ffffffffffffffffffffffffffffffffffff i don't like it at all.
+
 ##### Warning : The default secret key i was using is not working anymore (because ... i have to pay lol ) , you have to make your own , check tutorials :)
+
+# Add it to your project using JitPack :
+
+https://jitpack.io/private#goxr3plus/java-google-speech-api
+
+>Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+```
+
+>Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-google-speech-api</artifactId>
+   <version>8.0.0</version> 
+</dependency>
+```
+
 
 # Java Google Speech API
 
@@ -59,42 +85,6 @@ This project is separated on 3 parts :
 
 
 >The program supports dozens of languages and even has the ability to auto-detect languages! 
-
-# Java Versions Supported
-
->Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below
-
->Future releases will support only Java 8,9,10 and above.
-
-You are free to contribute if you want to maintain Java 7 background compatibility for your project
-
-###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
-
-###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
-
-
-# Add it to your project using JitPack :
-
-https://jitpack.io/private#goxr3plus/java-google-speech-api
-
->Step 1. Add the JitPack repository to your build file
-``` XML
-<repositories>
-	<repository>
-	   <id>jitpack.io</id>
-	   <url>https://jitpack.io</url>
-        </repository>
-</repositories>
-```
-
->Step 2. Add the dependency
-``` XML
-<dependency>
-   <groupId>com.github.goxr3plus</groupId>
-   <artifactId>java-google-speech-api</artifactId>
-   <version>V2.1</version> 
-</dependency>
-```
 
 # Maven Build
 
