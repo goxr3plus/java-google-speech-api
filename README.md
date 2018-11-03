@@ -92,7 +92,7 @@ https://jitpack.io/private#goxr3plus/java-google-speech-api
 <dependency>
    <groupId>com.github.goxr3plus</groupId>
    <artifactId>java-google-speech-api</artifactId>
-   <version>V2.1</version> 
+   <version>8.0.0</version> 
 </dependency>
 ```
 
