@@ -86,19 +86,6 @@ This project is separated on 3 parts :
 
 >The program supports dozens of languages and even has the ability to auto-detect languages! 
 
-# Java Versions Supported
-
->Only releases until [2.1](https://github.com/goxr3plus/java-google-speech-api/releases/tag/V2.1) Supports Java 7 and below
-
->Future releases will support only Java 8,9,10 and above.
-
-You are free to contribute if you want to maintain Java 7 background compatibility for your project
-
-###### For Java 1.5 ++ compatible version look here -> https://github.com/goxr3plus/java-speech-api
-
-###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
-
-
 # Maven Build
 
 > Maven Clean Package [ With Javadocs produced ]
