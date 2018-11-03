@@ -154,7 +154,14 @@ public final class GoogleTranslate { //Class marked as final since all methods a
 		if (raw.length < 2) {
 			return null;
 		}
-		return raw[1];//Returns the translation
+		JSONArray arr = new JSONArray(rawData);
+		JSONArray arr1 = arr.getJSONArray(0);
+		StringBuilder trans = new StringBuilder();
+		for (int i = 0; i < arr1.length(); i++) {
+			JSONArray arr2 = arr1.getJSONArray(i);
+			trans.append(arr2.get(0).toString());
+		}
+		return trans.toString();//Returns the translation
 	}
 	
 	/**
