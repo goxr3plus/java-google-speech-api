@@ -1,4 +1,4 @@
-package com.darkprograms.speech.synthesiser;
+package com.goxr3plus.speech.synthesiser;
 
 import java.io.IOException;
 import java.io.InputStream;

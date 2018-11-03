@@ -1,4 +1,4 @@
-package com.darkprograms.speech.microphone;
+package com.goxr3plus.speech.microphone;
 
 import javax.sound.sampled.*;
 

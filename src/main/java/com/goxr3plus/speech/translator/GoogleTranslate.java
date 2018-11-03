@@ -1,4 +1,4 @@
-package com.darkprograms.speech.translator;
+package com.goxr3plus.speech.translator;
 
 import java.io.IOException;
 import java.io.Reader;

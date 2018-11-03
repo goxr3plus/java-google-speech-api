@@ -1,7 +1,8 @@
-package com.darkprograms.speech.microphone;
+package com.goxr3plus.speech.microphone;
 
 import javax.sound.sampled.AudioFileFormat;
-import com.darkprograms.speech.util.*;
+
+import com.goxr3plus.speech.util.*;
 
 /********************************************************************************************
  * Microphone Analyzer class, detects pitch and volume while extending the microphone class. Implemented as a precursor to a Voice Activity Detection

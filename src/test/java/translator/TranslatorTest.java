@@ -6,7 +6,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.darkprograms.speech.translator.GoogleTranslate;
+import com.goxr3plus.speech.translator.GoogleTranslate;
 
 public class TranslatorTest {
 	

@@ -1,4 +1,4 @@
-package com.darkprograms.speech.recognizer;
+package com.goxr3plus.speech.recognizer;
 
 import java.util.ArrayList;
 import java.util.List;

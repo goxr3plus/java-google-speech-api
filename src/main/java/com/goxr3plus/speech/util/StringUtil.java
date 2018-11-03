@@ -1,4 +1,4 @@
-package com.darkprograms.speech.util;
+package com.goxr3plus.speech.util;
 
 /**
  * A string utility class for commonly used methods. 

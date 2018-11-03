@@ -1,4 +1,4 @@
-package com.darkprograms.speech.recognizer;
+package com.goxr3plus.speech.recognizer;
 
 public enum Languages {
 	

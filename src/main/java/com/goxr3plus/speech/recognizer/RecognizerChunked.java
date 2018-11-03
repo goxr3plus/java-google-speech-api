@@ -1,4 +1,4 @@
-package com.darkprograms.speech.recognizer;
+package com.goxr3plus.speech.recognizer;
 
 
 import java.io.BufferedReader;
@@ -20,7 +20,7 @@ import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
 import javax.xml.ws.http.HTTPException;
 
-import com.darkprograms.speech.util.StringUtil;
+import com.goxr3plus.speech.util.StringUtil;
 
 /**
  * This class uses Google's V2 Hook. The class is returns a chunked respones so listeners must be used.

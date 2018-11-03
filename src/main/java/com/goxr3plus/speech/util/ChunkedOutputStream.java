@@ -1,4 +1,4 @@
-package com.darkprograms.speech.util;
+package com.goxr3plus.speech.util;
 
 //TODO Replace this class with something that isn't 20 years old.
 

@@ -1,4 +1,4 @@
-package com.darkprograms.speech.synthesiser;
+package com.goxr3plus.speech.synthesiser;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import com.darkprograms.speech.translator.GoogleTranslate;
+import com.goxr3plus.speech.translator.GoogleTranslate;
 
 /*******************************************************************************
  * Synthesiser class that connects to Google's unoffical API to retrieve data

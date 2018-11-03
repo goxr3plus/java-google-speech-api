@@ -1,4 +1,4 @@
-package com.darkprograms.speech.recognizer;
+package com.goxr3plus.speech.recognizer;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.TargetDataLine;
 
-import com.darkprograms.speech.util.StringUtil;
+import com.goxr3plus.speech.util.StringUtil;
 
 import net.sourceforge.javaflacencoder.FLACFileWriter;
 
