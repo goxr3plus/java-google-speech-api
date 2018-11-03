@@ -2,6 +2,30 @@
 
 ##### Warning : The default secret key i was using is not working anymore (because ... i have to pay lol ) , you have to make your own , check tutorials :)
 
+# Add it to your project using JitPack :
+
+https://jitpack.io/private#goxr3plus/java-google-speech-api
+
+>Step 1. Add the JitPack repository to your build file
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+```
+
+>Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-google-speech-api</artifactId>
+   <version>8.0.0</version> 
+</dependency>
+```
+
+
 # Java Google Speech API
 
 [![Latest Version](https://img.shields.io/github/release/goxr3plus/java-google-speech-api.svg?style=flat-square)](https://github.com/goxr3plus/java-google-speech-api/releases)
@@ -72,29 +96,6 @@ You are free to contribute if you want to maintain Java 7 background compatibili
 
 ###### This project is a completely upgraded fork of Java-Speech-API -> https://github.com/goxr3plus/java-speech-api
 
-
-# Add it to your project using JitPack :
-
-https://jitpack.io/private#goxr3plus/java-google-speech-api
-
->Step 1. Add the JitPack repository to your build file
-``` XML
-<repositories>
-	<repository>
-	   <id>jitpack.io</id>
-	   <url>https://jitpack.io</url>
-        </repository>
-</repositories>
-```
-
->Step 2. Add the dependency
-``` XML
-<dependency>
-   <groupId>com.github.goxr3plus</groupId>
-   <artifactId>java-google-speech-api</artifactId>
-   <version>8.0.0</version> 
-</dependency>
-```
 
 # Maven Build
 
