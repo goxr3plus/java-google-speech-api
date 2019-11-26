@@ -22,10 +22,10 @@
 [contributors-image]: https://img.shields.io/github/contributors/goxr3plus/java-google-speech-api.svg
 
 
-## Google has released it's official library for [Google Speech Recognition](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-clients/google-cloud-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
+## Google has released it's official library for [Google Speech Recognition](https://github.com/googleapis/java-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
 
 
-# Add it to your project using JitPack :
+### Add it to your project using JitPack :
 
 https://jitpack.io/private#goxr3plus/java-google-speech-api
 
