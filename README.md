@@ -1,5 +1,19 @@
 ## Google has released it's official library for [Google Speech Recognition](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-clients/google-cloud-speech) . Check this issue for Official Google Speech Library code solution -> [#4](https://github.com/goxr3plus/java-google-speech-api/issues/4)
 
+---
+
+<h3 align="center" > JavaFX Web Browser ( Library )</h3>
+<p align="center">
+🎤
+</p>
+<p align="center">
+<sup>
+<b> Google Speech Recognition based on Chromium Speech API ( Private )  </b>
+</sup>
+</p>
+
+---
+
 By the way .... how they have implemented it ffffffffffffffffffffffffffffffffffff i don't like it at all.
 
 ##### Warning : The default secret key i was using is not working anymore (because ... i have to pay lol ) , you have to make your own , check tutorials :)
