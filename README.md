@@ -1,3 +1,5 @@
+THIS LIBRARY IS NOT SUPPORTED ACTIVELY ANYMORE 
+
 ---
 
 <h3 align="center" > Java Google Speech Api ( Library )</h3>
