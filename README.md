@@ -1,4 +1,4 @@
-THIS LIBRARY IS NOT SUPPORTED ACTIVELY ANYMORE 
+THIS LIBRARY IS NOT SUPPORTED BY ME ACTIVELY ANYMORE , feel free to contribute :) . I can give you master access on repository 
 
 ---
 
