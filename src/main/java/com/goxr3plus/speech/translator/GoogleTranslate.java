@@ -25,7 +25,7 @@ public final class GoogleTranslate { //Class marked as final since all methods a
 	/**
 	 * URL to query for Translation
 	 */
-	private static final String GOOGLE_TRANSLATE_URL = "http://translate.google.com/translate_a/single";
+	private static final String GOOGLE_TRANSLATE_URL = "https://translate.google.com/";
 	
 	/**
 	 * Private to prevent instantiation
